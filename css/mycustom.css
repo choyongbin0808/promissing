@@ -1,11 +1,11 @@
 
 @charset "UTF-8";
 /* **************************************** */
-/* description : 미래유망 온다쌤
-/* keywords : 온다프로필, 온다자기소개
-/* author : 온다 */ 
+/* description : 미래유망 용빈
+/* keywords : 용빈프로필, 용빈자기소개
+/* author : 조용빈 */ 
 /* create Date : 2024-09-19
-/* update Date : 2024-09-19
+/* update Date : 2024-11-09
 /* **************************************** */
 
 /* @import url(파일명.css); */
@@ -30,20 +30,88 @@ header nav a.headerActive{
     color: #fff !important;
 }
 
+/* ********************************************************* */
+/* 반응형 Mobile (max-width:320px) 우선 그리드 시스템
+/* ********************************************************* */
+@media screen and (max-width:320px){
+
+    /* **************************************** */
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-11-09
+    /* **************************************** */
+
+    .col-12{
+        width: 100%;
+    }
+}
+
+/* ********************************************************* */
+/* 반응형 Mobile (max-width:375px) 우선 그리드 시스템
+/* ********************************************************* */
+@media screen and (max-width:375px){
+
+    /* **************************************** */
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-11-09
+    /* **************************************** */
+
+    .col-12{
+        width: 100%;
+    }
+    #holo1 h1 span{
+        font-size: 16px;
+    }
+}
+
+/* ********************************************************* */
+/* 반응형 Mobile (max-width:425px) 우선 그리드 시스템
+/* ********************************************************* */
 @media screen and (max-width:425px){
 
-}
+    /* **************************************** */
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-11-09
+    /* **************************************** */
+
+    .col-12{
+        width: 100%;
+    }
+    #holo1 span{
+        font-size: 20px;
+    }
+    #sbmainpc #charimg{
+        padding-left: 60px;
+    }
+    #sbmainpc #chardetail{
+        padding-left: 55px;
+    }
+    #holo1 h1 img{
+        margin-top: 5px;
+    }
+    .popo span{
+        display: block;
+    }
+    }
 /* ********************************************************* */
 /* 반응형 Mobile 우선 그리드 시스템
 /* ********************************************************* */
 @media screen and (max-width:576px){
 
     /* **************************************** */
-    /* description : 미래유망 온다쌤
-    /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */ 
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-09-19
+    /* update Date : 2024-11-09
     /* **************************************** */
 
     /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
@@ -65,12 +133,12 @@ header nav a.headerActive{
 /* ********************************************************* */
 @media screen and (min-width:577px) and (max-width:1199px){
 
-    /* **************************************** */
-    /* description : 미래유망 온다쌤
-    /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */ 
+   /* **************************************** */
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-09-19
+    /* update Date : 2024-11-09
     /* **************************************** */
 
     .custom-innerWrap{
@@ -86,11 +154,11 @@ header nav a.headerActive{
 @media screen and (min-width:1200px){
 
     /* **************************************** */
-    /* description : 미래유망 온다쌤
-    /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */ 
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-09-19
+    /* update Date : 2024-11-09
     /* **************************************** */
     
     .custom-innerWrap{
@@ -183,7 +251,7 @@ header nav a{
     display: block;
     font-size: 40px;
     font-weight: bolder;
-    margin-top: 70px;
+    margin-top: 80px;
     padding-left: 30px;
 }
 #HTML5 nav{
