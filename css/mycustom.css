@@ -60,7 +60,6 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
-
     .col-12{
         width: 100%;
     }
@@ -100,6 +99,25 @@ header nav a.headerActive{
     .popo span{
         display: block;
     }
+    #HTML5 .art{
+        padding: 10px;
+    }
+    #HTML5 nav{
+        padding: 10px;
+    }
+    #cltool span{
+        padding: 10px;
+    }
+    #cltool nav{
+        padding: 10px;
+    }
+    #figma span{
+        padding: 10px;
+    }
+    #figma nav{
+        padding: 10px;
+    }
+
     }
 /* ********************************************************* */
 /* 반응형 Mobile 우선 그리드 시스템
@@ -245,7 +263,7 @@ header nav a{
 /* HTMLpage */
 #hl{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 } 
 #HTML5 .art{
     display: block;
@@ -285,7 +303,7 @@ header nav a{
 #fm{
     margin-top: 50px;
 }
-#figma .prototype{
+#figma span{
     display: block;
     font-size: 40px;
     margin-top: 70px;
