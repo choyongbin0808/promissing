@@ -1,0 +1,336 @@
+
+@charset "UTF-8";
+/* **************************************** */
+/* description : 미래유망 온다쌤
+/* keywords : 온다프로필, 온다자기소개
+/* author : 온다 */ 
+/* create Date : 2024-09-19
+/* update Date : 2024-09-19
+/* **************************************** */
+
+/* @import url(파일명.css); */
+
+/* 윈도우 사이즈 출력 */
+#resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
+
+header{
+    border-bottom:1px solid #ccc;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+    background-color: #fff;
+    transition: background-color 0.35s;
+}
+
+header nav a.headerActive{
+    color: #fff !important;
+}
+
+@media screen and (max-width:425px){
+
+}
+/* ********************************************************* */
+/* 반응형 Mobile 우선 그리드 시스템
+/* ********************************************************* */
+@media screen and (max-width:576px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+
+    /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
+    .custom-innerWrap{
+        width: 100%;
+        min-width:320px;
+        padding:0 20px;
+    }  
+    header{
+        height: 100px;
+    }
+    #holo1 h1{
+        margin-top: 25px;
+    }
+}
+   
+/* ********************************************************* */
+/* 반응형 Tablet(Tablet Vertical/세로모드)
+/* ********************************************************* */
+@media screen and (min-width:577px) and (max-width:1199px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+
+    .custom-innerWrap{
+        width: 960px;
+        margin:0 auto;
+        padding:0 20px;
+    }
+}
+   
+/* ********************************************************* */
+/* 반응형 PC(Tablet Horizontal/가로모드)
+/* ********************************************************* */
+@media screen and (min-width:1200px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+    
+    .custom-innerWrap{
+        width: 1140px;
+        margin:0 auto;
+    }
+}
+.customHidden{
+    position: absolute;
+    left: -9999999px
+}
+/* header */
+#holo{
+    height: 70px;
+}
+#holo #holo2{
+    margin-top: 15px;
+    font-weight: 800;
+}
+#holo1 h1 img{
+    border-radius: 70%;
+    margin-top: 10px;
+}
+h1 span{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+
+    color: #000;
+
+    transition: color 0.35s;
+
+}
+
+header nav a{
+    color: #000;
+    transition: color 0.35s;
+}
+/* //header */
+
+/* mainpage */
+#bgpc{
+    background: linear-gradient(rgba(255, 179, 39, 0.3), rgba(10, 10, 10, 1)), url(/img/programbg.png) no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+#sogae{
+    text-align: center; padding-top: 100px;
+}
+#dream{
+    padding-top: 200px;
+    font-size: 45px;
+    font-weight: 800;
+}
+#mn{
+    padding-top: 70px;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 150px;
+}
+/* //mainpage */
+
+/* mainvisualpage */
+#have{
+    text-align: center; padding-top: 100px;
+    padding-bottom: 50px;
+    color: rgb(248, 161, 0);
+}
+#charimg{
+    padding-left: 120px;
+}
+#chardetail{
+    padding-left: 100px;
+}
+#chardetail span{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+/* //mainvisualpage */
+
+/* HTMLpage */
+#hl{
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+#HTML5 .art{
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 70px;
+    padding-left: 30px;
+}
+#HTML5 nav{
+    font-size: 25px;
+    margin-bottom: 100px;
+    padding-left: 30px;
+}
+/* HTML page */
+
+/* clanguage page */
+#cl{
+    margin-top: 70px;
+}
+#cltool span{
+    display: block;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 120px;
+    padding-left: 30px
+}
+#cltool nav{
+    display: block;
+    color: white;
+    font-size: 23px;
+    padding-left: 30px
+}
+/* //clanguage page */
+
+/* figma page */
+#fm{
+    margin-top: 50px;
+}
+#figma .prototype{
+    display: block;
+    font-size: 40px;
+    margin-top: 70px;
+    font-weight: bolder;
+    padding-left: 30px
+}
+#figma nav{
+    font-size: 25px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+}
+/* //figma page */
+
+/* 위대한 것은 시 영역 */
+#great{
+    margin-top: 70px;
+    display: block;
+    padding-left: 30px;
+    font-size: 17px;
+}
+#phone{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+/* //위대한 것은 시 영역 */
+
+/* poem visual page*/
+#winner #amg{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgba(216, 89, 16, 0.815);
+}
+#amg span{
+    color: rgb(255, 0, 179);
+}
+#winner img{
+    border-radius: 70%;
+    display: block;
+}
+#visual #moning{
+    max-width: 300px;
+    max-height: 400px;
+}
+#moning p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+#visual #program{
+    max-width: 300px;
+    max-height: 400px;
+}
+#program p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+#visual #class{
+    max-width: 300px;
+    max-height: 400px;
+}
+#class p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* //poem visual page*/
+
+/* 가르기 */
+hr{
+    margin: 0;
+}
+/* //가르기 */
+
+/* footer */
+.mire{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.calling{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.site{
+    font-size: 12px;
+}
+.copy{
+    font-size: 17px;
+    font-weight: bolder;
+}
+#fto{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#fto .logo{
+    margin-right: 20px;
+}
+#ftt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#ftt .icon{
+    margin-left: 50px;
+}
+.icon #kakao{
+    margin-right: 10px;
+}
+.icon #insta{
+    margin-right: 10px;
+}
+/* //footer */

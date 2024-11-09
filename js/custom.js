@@ -124,7 +124,7 @@ window.addEventListener("scroll", function(){
     const headerText=document.querySelectorAll("header nav a");
     const headerLogo=document.querySelector("header #holo1 span");
   
-    if(document.documentElement.scrollTop<700){
+    if(document.documentElement.scrollTop<750){
       headerBackground.style.backgroundColor="#fff";
       headerText.forEach(element => {
         element.classList.toggle("headerActive", false);
