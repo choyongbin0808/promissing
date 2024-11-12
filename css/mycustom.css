@@ -147,11 +147,57 @@ header nav a.headerActive{
         font-size: 20px;
     }
 }
+
+  
+/* ********************************************************* */
+/* 반응형 web Tablet 모드
+/* ********************************************************* */
+@media screen and (max-width:768px){
+
+    /* **************************************** */
+     /* description : 미래유망 조용빈
+     /* keywords : 용빈프로필, 용빈자기소개
+     /* author : 조용빈 */ 
+     /* create Date : 2024-09-19
+     /* update Date : 2024-11-09
+     /* **************************************** */
+    .box #holo1{
+        margin-top: 11px;
+    }
+    #sbmainpc #charimg{
+        padding-left: 0;
+        text-align: center;
+    }
+     #HTML5 li p{
+         font-size: 25px;
+     }
+    #project .projectbox{
+         max-width: 700px;
+         max-height: 320px;
+         margin-left: 0;
+
+     }
+    .carousel-inner .school{
+         max-width: 700px;
+         max-height: 320px;
+         object-fit: cover; 
+     }
+    .carousel-inner .mp{
+         max-width: 700px;
+         max-height: 320px;
+         object-fit: cover;
+     }
+     .carousel-inner .meat{
+         max-width: 700px;
+         max-height: 320px;
+         object-fit: cover;
+     }
+}
    
 /* ********************************************************* */
 /* 반응형 Tablet(Tablet Vertical/세로모드)
 /* ********************************************************* */
-@media screen and (min-width:577px) and (max-width:1199px){
+@media screen and (min-width:767px) and (max-width:1199px){
 
    /* **************************************** */
     /* description : 미래유망 조용빈
@@ -189,22 +235,6 @@ header nav a.headerActive{
         max-height: 300px;
         object-fit: cover;
     }
-    #project .col-12{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    #project .col-12 img{
-        align-items: center;
-        justify-content: center;
-        left: 0;
-    }
-    .col-12 .carousel-inner{
-        align-items: center;
-        justify-content: center;
-        left: 0;
-    }
-
 }
    
 /* ********************************************************* */
@@ -244,22 +274,6 @@ header nav a.headerActive{
         max-height: 300px;
         object-fit: cover;
     }
-    #project .col-12{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    #project .col-12 img{
-        align-items: center;
-        justify-content: center;
-        left: 0;
-    }
-    .col-12 .carousel-inner{
-        align-items: center;
-        justify-content: center;
-        left: 0;
-    }
-    
 }
 .customHidden{
     position: absolute;
@@ -278,7 +292,6 @@ li{
 }
 #holo1 h1 img{
     border-radius: 70%;
-    margin-top: 10px;
 }
 h1 span{
     font-size: 25px;
