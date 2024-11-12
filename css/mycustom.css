@@ -169,26 +169,40 @@ header nav a.headerActive{
     #HTML5 li p{
         font-size: 25px;
     }
-    .projectbox{
-        margin-top: 40px;
-        margin-bottom: 40px;
+    #project .projectbox{
         max-width: 900px;
-        height: 300px;
+        max-height: 300px;
+        margin-left: 0;
     }
     .school{
         max-width: 900px;
-        height: 300px;
+        max-height: 300px;
         object-fit: cover; 
     }
     .mp{
         max-width: 900px;
-        height: 300px;
+        max-height: 300px;
         object-fit: cover;
     }
     .meat{
         max-width: 900px;
-        height: 300px;
+        max-height: 300px;
         object-fit: cover;
+    }
+    #project .col-12{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #project .col-12 img{
+        align-items: center;
+        justify-content: center;
+        left: 0;
+    }
+    .col-12 .carousel-inner{
+        align-items: center;
+        justify-content: center;
+        left: 0;
     }
 
 }
