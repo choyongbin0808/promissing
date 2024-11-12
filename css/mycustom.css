@@ -113,28 +113,7 @@ header nav a.headerActive{
     #figma nav{
         padding: 10px;
     }
-    .carousel-inner{
-        max-width: 380px;
-        margin: 0 auto;
-    }
-    .carousel-item{
-        width: 100%;
-        height: auto;
-    }
-    .carousel-caption {
-        left: 0;
-        right: 0;
-        bottom: 10px;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.5); 
-        color: white; 
-    }
-    .carousel-caption h5 {
-        font-size: 1.2rem;
-    }
-    .carousel-caption p {
-        font-size: 0.9rem;
-    }
+
 /* //고기성분 */
     /* //project */
     }
@@ -163,7 +142,10 @@ header nav a.headerActive{
     #holo1 h1{
         margin-top: 25px;
     }
-    
+    #HTML5 li p{
+        height: 80px;
+        font-size: 20px;
+    }
 }
    
 /* ********************************************************* */
@@ -184,7 +166,7 @@ header nav a.headerActive{
         margin:0 auto;
         padding:0 20px;
     }
-    #HTML5 ul li{
+    #HTML5 li p{
         font-size: 25px;
     }
     .projectbox{
@@ -268,7 +250,7 @@ header nav a{
 
 /* mainpage */
 #bgpc{
-    background: linear-gradient(rgba(255, 179, 39, 0.3), rgba(10, 10, 10, 1)), url(/img/programbg.png) no-repeat;
+    background: linear-gradient(rgba(255, 179, 39, 0.3), rgba(10, 10, 10, 1)), url(../img/programbg.png) no-repeat;
     background-size: cover;
     color: white;
     width: 100%;
@@ -277,7 +259,7 @@ header nav a{
     text-align: center; padding-top: 100px;
 }
 #dream{
-    padding-top: 250px;
+    padding-top: 400px;
     font-size: 45px;
     font-weight: 800;
 }
@@ -285,7 +267,7 @@ header nav a{
     padding-top: 70px;
     font-size: 70px;
     font-weight: 800;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 /* //mainpage */
 
