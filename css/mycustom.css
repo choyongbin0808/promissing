@@ -40,13 +40,36 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
-
+    header{
+        height: 100px;
+    }
+    #holo1 h1{
+        margin-top: 25px;
+    }
+    #sbmainpc #charimg{
+        padding-left: 0;
+    }
+    #sbmainpc #chardetail{
+        padding-left: 20px;
+    }
+    #HTML5 img{
+        width: 300px;
+    }
+    #HTML5 li p{
+        font-size: 13px;
+    }
+    #project .card{
+        margin-left: 10px;
+    }
+    #holo1 span{
+        font-size: 15px;
+    }
 }
 
 /* ********************************************************* */
 /* 반응형 Mobile (max-width:375px) 우선 그리드 시스템
 /* ********************************************************* */
-@media screen and (max-width:375px){
+@media screen and (min-width:321px) and (max-width:376px){
 
     /* **************************************** */
     /* description : 미래유망 조용빈
@@ -55,32 +78,53 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
+    
+    header{
+        height: 100px;
+    }
+    #holo1 h1{
+        margin-top: 30px;
+    }
+    #holo1 span{
+        font-size: 15px;
+    }
     .col-12{
         width: 100%;
+    }
+    #sbmainpc #charimg{
+        padding-left: 30px;
+    }
+    #sbmainpc #chardetail{
+        padding-left: 30px;
     }
     #holo1 h1 span{
         font-size: 16px;
     }
+    #sbmainpc #charimg img{
+        width: 280px;
+        height: 280px;
+    }
     #HTML5 img{
         width: 300px;
     }
-    #HTML5 p{
-        font-size: 5px;
+    #HTML5 li p{
+        font-size: 16px;
     }
-    .allcard{
-        display: block;
+    .allcard #programing{
+        margin-top: 30px;
+        min-height: 380px;
     }
-    .card{
+    #project .card{
         max-width: 250px;
-        max-height: 300px;
-        margin-left: 35px;
+        max-height: 340px;
+        margin-left: 60px;
     }
 }
 
 /* ********************************************************* */
 /* 반응형 Mobile (max-width:425px) 우선 그리드 시스템
 /* ********************************************************* */
-@media screen and (max-width:425px){
+@media screen and (min-width:377px) and (max-width:425px){
 
     /* **************************************** */
     /* description : 미래유망 조용빈
@@ -89,25 +133,30 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
+    header{
+        height: 100px;
+    }
     #holo1 h1{
         margin-top: 0;
     }
+    #sbmainpc #charimg{
+        padding-left: 60px;
+    }
+    #HTML5 img{
+        width: 300px;
+    }
     #HTML5 li p{
-        font-size: 10px;
+        font-size: 20px;
     }
     .card{
-        margin-left: 65px;
+        margin-left: 55px;
     }
-    .allcard{
-        display: block;
-    }
-/* //고기성분 */
-    /* //project */
-    }
+}
+
 /* ********************************************************* */
 /* 반응형 Mobile 우선 그리드 시스템
 /* ********************************************************* */
-@media screen and (max-width:576px){
+@media screen and (min-width:426px) and (max-width:576px){
 
     /* **************************************** */
     /* description : 미래유망 조용빈
@@ -133,16 +182,24 @@ header nav a.headerActive{
         height: 80px;
         font-size: 20px;
     }
+    .card{
+        min-width: 180px;
+        min-height: 440px;
+        margin-left: 65px;
+    }
     .allcard{
         display: block;
     }
+    .navbar-toggler:hover {
+        background-color: rgb(248, 161, 0);
+        text-decoration: none;
+    }
 }
-
   
 /* ********************************************************* */
 /* 반응형 web Tablet 모드
 /* ********************************************************* */
-@media screen and (max-width:768px){
+@media screen and (min-width:577px) and (max-width:767px){
 
     /* **************************************** */
      /* description : 미래유망 조용빈
@@ -161,12 +218,17 @@ header nav a.headerActive{
      #HTML5 li p{
          font-size: 25px;
     }
+    .card{
+        min-width: 240px;
+        min-height: 390px;
+        margin-left: 100px;
+    }
 }
    
 /* ********************************************************* */
 /* 반응형 Tablet(Tablet Vertical/세로모드)
 /* ********************************************************* */
-@media screen and (max-width:1199px){
+@media screen and (min-width:768px) and (max-width:1199px){
 
    /* **************************************** */
     /* description : 미래유망 조용빈
@@ -183,6 +245,13 @@ header nav a.headerActive{
     }
     #HTML5 li p{
         font-size: 25px;
+    }
+    .allcard{
+        display: flex;
+    }
+    .card{
+        min-width: 250px;
+        min-height: 390px;
     }
 }
    
@@ -202,6 +271,9 @@ header nav a.headerActive{
     .custom-innerWrap{
         width: 1140px;
         margin:0 auto;
+    }
+    .allcard{
+        display: flex;
     }
 }
 .customHidden{
@@ -329,10 +401,6 @@ li{
 /* HTML page */
 
 /* project page */
-.allcard{
-    display: flex;
-    justify-content: center;
-}
 .card{
     width: 300px;
     height: 340px;
@@ -344,9 +412,6 @@ li{
 }
 .card a{
     margin-bottom: 10px;
-}
-.card button:hover{
-    background-color: rgb(248, 161, 0);
 }
 /* //project page */
 
@@ -376,11 +441,11 @@ li{
     font-size: 20px;
     margin-bottom: 30px;
 }
-#phone{
+/* #phone{
     margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
-}
+} */
 /* //위대한 것은 시 영역 */
 
 /* poem visual page*/
@@ -485,7 +550,7 @@ hr{
 /* upbtn */
 .gt{
     border-radius: 10px;
-    border-color: white;
+    border-color: black;
     background-color: #fff;
     box-shadow: 3px 3px 3px black;
     position:fixed;
