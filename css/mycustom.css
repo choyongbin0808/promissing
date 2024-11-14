@@ -41,9 +41,6 @@ header nav a.headerActive{
     /* update Date : 2024-11-09
     /* **************************************** */
 
-    .col-12{
-        width: 100%;
-    }
 }
 
 /* ********************************************************* */
@@ -64,9 +61,19 @@ header nav a.headerActive{
     #holo1 h1 span{
         font-size: 16px;
     }
-    .school{
-        width: 400px;
-        height: 100%;
+    #HTML5 img{
+        width: 300px;
+    }
+    #HTML5 p{
+        font-size: 5px;
+    }
+    .allcard{
+        display: block;
+    }
+    .card{
+        max-width: 250px;
+        max-height: 300px;
+        margin-left: 35px;
     }
 }
 
@@ -82,41 +89,18 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
+    #holo1 h1{
+        margin-top: 0;
+    }
     #HTML5 li p{
         font-size: 10px;
     }
-
-    .col-12{
-        width: 100%;
+    .card{
+        margin-left: 65px;
     }
-    #holo1 span{
-        font-size: 20px;
-    }
-    #sbmainpc #charimg{
-        padding-left: 60px;
-    }
-    #sbmainpc #chardetail{
-        padding-left: 55px;
-    }
-    #holo1 h1 img{
-        margin-top: 5px;
-    }
-    .popo span{
+    .allcard{
         display: block;
     }
-    #HTML5 .art{
-        padding: 10px;
-    }
-    #HTML5 nav{
-        padding: 10px;
-    }
-    #figma span{
-        padding: 10px;
-    }
-    #figma nav{
-        padding: 10px;
-    }
-
 /* //고기성분 */
     /* //project */
     }
@@ -149,63 +133,8 @@ header nav a.headerActive{
         height: 80px;
         font-size: 20px;
     }
-    #project #carouselExampleCaptions{
-        max-width: 500px;
-        max-height: 300px;
-        margin: 0;
-    }
-    #project{
-        height: 400px;
-    }
-    #project .col-12{
-        max-width: 500px;
-        max-height: 300px;
-        margin-top: 50px;
-        margin-left: 20px;
-    }
-    #project .carousel-inner{
-        max-width: 550px;
-        max-height: 300px;
-    }
-    .carousel-inner .school{
-        margin: 0;
-        width: 500px;
-        height: 300px;
-    }
-    .school img{
-        max-width: 500px;
-        max-height: 300px;
-        object-fit: contain; 
-    }
-    .programp{
-        z-index: 10;
-    }
-    .carousel-inner .mp{
-        margin: 0;
-        width: 500px;
-        height: 300px;
-    }
-    .mp img{
-        max-width: 500px;
-        max-height: 300px;
-        object-fit: contain;
-    }
-    .missingp{
-        z-index: 10;
-    }
-    .carousel-inner .meat{
-        margin: 0;
-        width: 500px;
-        height: 300px;
-
-    }
-    .meat img{
-        max-width: 500px;
-        max-height: 300px;
-        object-fit: contain;
-    }
-    .meatp{
-        z-index: 10;
+    .allcard{
+        display: block;
     }
 }
 
@@ -232,35 +161,12 @@ header nav a.headerActive{
      #HTML5 li p{
          font-size: 25px;
     }
-    #project{
-        height: 400px;
-    }
-    #project #carouselExampleCaptions{
-        max-width: 600px;
-        max-height: 320px;
-        margin-top: 40px;
-    }
-    .carousel-inner .school{
-         max-width: 600px;
-         max-height: 320px;
-         object-fit: cover; 
-     }
-    .carousel-inner .mp{
-         max-width: 600px;
-         max-height: 320px;
-         object-fit: cover;
-     }
-     .carousel-inner .meat{
-         max-width: 600px;
-         max-height: 320px;
-         object-fit: cover;
-     }
 }
    
 /* ********************************************************* */
 /* 반응형 Tablet(Tablet Vertical/세로모드)
 /* ********************************************************* */
-@media screen and (min-width:767px) and (max-width:1199px){
+@media screen and (max-width:1199px){
 
    /* **************************************** */
     /* description : 미래유망 조용빈
@@ -277,26 +183,6 @@ header nav a.headerActive{
     }
     #HTML5 li p{
         font-size: 25px;
-    }
-    #project .projectbox{
-        max-width: 900px;
-        max-height: 300px;
-        margin-left: 0;
-    }
-    .school{
-        max-width: 900px;
-        max-height: 300px;
-        object-fit: cover; 
-    }
-    .mp{
-        max-width: 900px;
-        max-height: 300px;
-        object-fit: cover;
-    }
-    .meat{
-        max-width: 900px;
-        max-height: 300px;
-        object-fit: cover;
     }
 }
    
@@ -317,29 +203,6 @@ header nav a.headerActive{
         width: 1140px;
         margin:0 auto;
     }
-    #project .projectbox{
-        max-width: 900px;
-        max-height: 300px;
-        margin-left: 0;
-    }
-    .school{
-        max-width: 900px;
-        max-height: 300px;
-        object-fit: cover; 
-    }
-    .mp{
-        max-width: 900px;
-        max-height: 300px;
-        object-fit: cover;
-    }
-    .meat{
-        max-width: 900px;
-        max-height: 300px;
-        object-fit: cover;
-    }
-}
-*{
-    border: 1px solid #000;
 }
 .customHidden{
     position: absolute;
@@ -348,7 +211,14 @@ header nav a.headerActive{
 li{
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 /* header */
+header{
+    z-index: 10;
+}
 #holo{
     height: 70px;
 }
@@ -387,11 +257,11 @@ header nav a{
     text-align: center; padding-top: 100px;
 }
 #dream{
-    padding-top: 400px;
+    padding-top: 300px;
     font-size: 45px;
     font-weight: 800;
 }
-#mn{
+.mn{
     padding-top: 70px;
     font-size: 70px;
     font-weight: 800;
@@ -411,7 +281,7 @@ header nav a{
 #chardetail{
     padding-left: 100px;
 }
-#chardetail span{
+#chardetail .myname{
     font-size: 30px;
     display: block;
     margin-bottom: 10px;
@@ -459,92 +329,32 @@ li{
 /* HTML page */
 
 /* project page */
-.projectbox{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 1150px;
-    height: 400px;
-    margin-left: 85px;
+.allcard{
+    display: flex;
+    justify-content: center;
 }
-/* 프로그래밍 */
-#project #programing{
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+.card{
+    width: 300px;
+    height: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-#programing a{
-    text-decoration: none;
-    color: rgb(248, 161, 0);
+.card img{
+    padding: 15px;
 }
-.school{
-    width: 1150px;
-    height: 400px;
-    object-fit: cover; 
+.card a{
+    margin-bottom: 10px;
 }
-.school img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.4;
+.card button:hover{
+    background-color: rgb(248, 161, 0);
 }
-.programp{
-    z-index: 2;
-}
-/* //프로그래밍 */
-/* 미래유망 */
-#project #promissing{
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-}
-#promissing a{
-    text-decoration: none;
-    color: rgb(248, 161, 0);
-}
-.mp{
-    width: 1150px;
-    height: 400px;
-    object-fit: cover; 
-}
-.mp img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.4;
-}
-.missingp{
-    z-index: 2;
-}
-/* //미래유망 */
-/* 고기성분 */
-#project #meat{
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-}
-#meat a{
-    text-decoration: none;
-    color: rgb(248, 161, 0);
-}
-.meat{
-    width: 1150px;
-    height: 400px;
-    object-fit: cover; 
-}
-.meat img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.4;
-}
-.meatp{
-    z-index: 2;
-}
-/* //고기성분 */
 /* //project page */
 
 /* figma page */
 #fm{
     margin-top: 50px;
 }
-#figma span{
+#figma .figmafoem{
     display: block;
     font-size: 40px;
     margin-top: 70px;
@@ -559,11 +369,12 @@ li{
 /* //figma page */
 
 /* 위대한 것은 시 영역 */
-#great{
+.great{
     margin-top: 70px;
     display: block;
     padding-left: 30px;
-    font-size: 17px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 #phone{
     margin-top: 70px;
@@ -592,7 +403,10 @@ li{
     max-width: 300px;
     max-height: 400px;
 }
-#moning p{
+#moning img{
+    width: 100%;
+}
+#moning .mon{
     font-size: 17px;
     font-weight: bolder;
     text-align: center;
@@ -600,6 +414,9 @@ li{
 #visual #program{
     max-width: 300px;
     max-height: 400px;
+}
+#program img{
+    width: 100%;
 }
 #program p{
     font-size: 17px;
@@ -609,6 +426,9 @@ li{
 #visual #class{
     max-width: 300px;
     max-height: 400px;
+}
+#class img{
+    width: 100%;
 }
 #class p{
     font-size: 17px;
@@ -666,6 +486,7 @@ hr{
 .gt{
     border-radius: 10px;
     border-color: white;
+    background-color: #fff;
     box-shadow: 3px 3px 3px black;
     position:fixed;
     right: 10px;
