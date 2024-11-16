@@ -5,7 +5,7 @@
 /* keywords : 용빈프로필, 용빈자기소개
 /* author : 조용빈 */ 
 /* create Date : 2024-09-19
-/* update Date : 2024-11-09
+/* update Date : 2024-11-16
 /* **************************************** */
 
 /* @import url(파일명.css); */
@@ -38,7 +38,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-09
+    /* update Date : 2024-11-16
     /* **************************************** */
     #holo h1{
         margin-top: 10px;
@@ -73,7 +73,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-09
+    /* update Date : 2024-11-16
     /* **************************************** */
     #holo h1{
         margin-top: 10px;
@@ -99,6 +99,9 @@ header nav a.headerActive{
     .allcard #programing{
         min-height: 380px;
     }
+    .allcard #promissing{
+        min-height: 380px;
+    }
     #project .card{
         max-width: 250px;
         max-height: 340px;
@@ -115,7 +118,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-09
+    /* update Date : 2024-11-16
     /* **************************************** */
     #holo h1{
         margin-top: 10px;
@@ -147,7 +150,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-09
+    /* update Date : 2024-11-16
     /* **************************************** */
 
     /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
@@ -185,7 +188,7 @@ header nav a.headerActive{
      /* keywords : 용빈프로필, 용빈자기소개
      /* author : 조용빈 */ 
      /* create Date : 2024-09-19
-     /* update Date : 2024-11-09
+     /* update Date : 2024-11-16
      /* **************************************** */
      #holo h1{
         margin-top: 10px;
@@ -221,7 +224,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-09
+    /* update Date : 2024-11-16
     /* **************************************** */
 
     .custom-innerWrap{
@@ -251,7 +254,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-09
+    /* update Date : 2024-11-16
     /* **************************************** */
     
     .custom-innerWrap{
