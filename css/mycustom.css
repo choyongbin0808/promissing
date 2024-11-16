@@ -5,7 +5,7 @@
 /* keywords : 용빈프로필, 용빈자기소개
 /* author : 조용빈 */ 
 /* create Date : 2024-09-19
-/* update Date : 2024-11-16
+/* update Date : 2024-11-17
 /* **************************************** */
 
 /* @import url(파일명.css); */
@@ -38,7 +38,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-16
+    /* update Date : 2024-11-17
     /* **************************************** */
     #holo h1{
         margin-top: 10px;
@@ -73,7 +73,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-16
+    /* update Date : 2024-11-17
     /* **************************************** */
     #holo h1{
         margin-top: 10px;
@@ -118,7 +118,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-16
+    /* update Date : 2024-11-17
     /* **************************************** */
     #holo h1{
         margin-top: 10px;
@@ -141,7 +141,7 @@ header nav a.headerActive{
 }
 
 /* ********************************************************* */
-/* 반응형 Mobile 우선 그리드 시스템
+/* 반응형 Mobile (max-width:576px) 우선 그리드 시스템
 /* ********************************************************* */
 @media screen and (min-width:426px) and (max-width:576px){
 
@@ -150,7 +150,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-16
+    /* update Date : 2024-11-17
     /* **************************************** */
 
     /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
@@ -188,9 +188,9 @@ header nav a.headerActive{
      /* keywords : 용빈프로필, 용빈자기소개
      /* author : 조용빈 */ 
      /* create Date : 2024-09-19
-     /* update Date : 2024-11-16
+     /* update Date : 2024-11-17
      /* **************************************** */
-     #holo h1{
+    #holo h1{
         margin-top: 10px;
     }
     #holo #holo2 nav{
@@ -224,7 +224,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-16
+    /* update Date : 2024-11-17
     /* **************************************** */
 
     .custom-innerWrap{
@@ -254,7 +254,7 @@ header nav a.headerActive{
     /* keywords : 용빈프로필, 용빈자기소개
     /* author : 조용빈 */ 
     /* create Date : 2024-09-19
-    /* update Date : 2024-11-16
+    /* update Date : 2024-11-17
     /* **************************************** */
     
     .custom-innerWrap{
@@ -265,6 +265,18 @@ header nav a.headerActive{
         display: flex;
     }
 }
+/* ********************************************************* */
+/* 웹 전체 반응형 
+/* ********************************************************* */
+
+    /* **************************************** */
+    /* description : 미래유망 조용빈
+    /* keywords : 용빈프로필, 용빈자기소개
+    /* author : 조용빈 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-11-17
+    /* **************************************** */
+  
 .customHidden{
     position: absolute;
     left: -9999999px
@@ -411,21 +423,14 @@ li{
 }
 /* //figma page */
 
-/* 위대한 것은 시 영역 */
-/* .great{
-    margin-top: 70px;
-    display: block;
-    padding-left: 30px;
-    font-size: 20px;
-    margin-bottom: 30px;
-} */
-/* //위대한 것은 시 영역 */
-
 /* poem visual page*/
 #winner #amg{
     margin-top: 50px;
     margin-bottom: 50px;
     color: rgba(216, 89, 16, 0.815);
+}
+#winner img{
+    width: 100%;
 }
 #amg span{
     color: rgb(255, 0, 179);
@@ -438,22 +443,13 @@ li{
     max-width: 300px;
     max-height: 400px;
 }
-#moning img{
-    width: 100%;
-}
 #visual #program{
     max-width: 300px;
     max-height: 400px;
 }
-#program img{
-    width: 100%;
-}
 #visual #class{
     max-width: 300px;
     max-height: 400px;
-}
-#class img{
-    width: 100%;
 }
 /* //poem visual page*/
 
@@ -507,3 +503,4 @@ hr{
     color: black;
 }
 /* //upbtn */
+/* //전체 반응형 */
