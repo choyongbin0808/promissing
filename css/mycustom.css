@@ -53,7 +53,8 @@ header nav a.headerActive{
         width: 300px;
     }
     #HTML5 li p{
-        font-size: 13px;
+        font-size: 16px;
+        padding: 27px;
     }
     #project .card{
         margin-left: 10px;
@@ -94,7 +95,8 @@ header nav a.headerActive{
         width: 300px;
     }
     #HTML5 li p{
-        font-size: 16px;
+        font-size: 15px;
+        padding: 30px;
     }
     .allcard #programing{
         min-height: 380px;
@@ -208,6 +210,10 @@ header nav a.headerActive{
     }
 }
 
+/* ********************************************************* */
+/* 반응형 web Tablet 모드
+    /* (max-width:991px) 이하로 가면 헤더 크기 변경
+/* ********************************************************* */
 @media screen and (max-width:991px){
     header{
             height: 120px;
@@ -239,7 +245,6 @@ header nav a.headerActive{
         display: flex;
     }
     .card{
-        min-width: 250px;
         min-height: 390px;
     }
 }
@@ -355,9 +360,6 @@ header nav a{
     margin-bottom: 20px;
 } 
 #HTML5 .art{
-    display: block;
-    font-size: 40px;
-    font-weight: bolder;
     margin-top: 80px;
 }
 #HTML5 nav{
@@ -460,21 +462,12 @@ hr{
 /* //가르기 */
 
 /* footer */
-.mire{
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
 .calling{
     font-size: 16px;
     margin-bottom: 0;
 }
 .site{
     font-size: 12px;
-}
-.copy{
-    font-size: 17px;
-    font-weight: bolder;
 }
 #fto{
     margin-top: 50px;
@@ -492,15 +485,11 @@ hr{
     background-color: #fff;
     box-shadow: 3px 3px 3px black;
     position:fixed;
-    right: 10px;
-    bottom: 15px;
+    right: 18px;
+    bottom: 18px;
     width: 45px;
-    height: 55px;
+    height: 45px;
     font-size: 30px;
-    
-}
-#upicon{
-    color: black;
 }
 /* //upbtn */
 /* //전체 반응형 */
