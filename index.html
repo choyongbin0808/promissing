@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="style.css">
     <!-- //Ex -->
 
     <!-- my meta tags -->
@@ -44,15 +43,15 @@
         <div class="headerbox container-fluid px-0" >
             <!-- header h1/menu -->
             <section class="container-sm text px-0 ">
-                <div class="row g-0" id="holo">
-                    <div class="col-6" id="holo1">
-                        <h1><a href="#bgpc"><img src="img/logo.png" alt="로고이미지" width="40" height="40"></a> <a href="#bgpc" style="text-decoration: none;"><span>CYB's Portfolio</span></a></h1>
+                <div class="row g-0 text-center " id="holo">
+                    <div class="col-12 col-lg-6 mt-1" id="holo1">
+                        <h1><a href="#bgpc"><img src="img/logo.png" alt="로고이미지" width="40" height="40"></a> <a href="#bgpc" style="text-decoration: none;"><span class="fw-bolder">CYB's Portfolio</span></a></h1>
                     </div>
-                    <div class="col-6" id="holo2">
-                        <nav class="nav justify-content-end align-items-center">
+                    <div class="col-12 col-lg-6 fw-bolder" id="holo2">
+                        <nav class="nav justify-content-center text-center mt-3">
                             <a class="nav-link active" aria-current="page" href="#sbmainpc" style="color: black;">About</a>
                             <a class="nav-link" href="#gagi" style="color: black;">HTML</a>
-                            <a class="nav-link" href="#HTML5" style="color: black;">Project</a>
+                            <a class="nav-link px-2" href="#HTML5" style="color: black;">Project</a>
                             <a class="nav-link" href="#figma" style="color: black;">Figma</a>
                         </nav>
                     </div>
@@ -69,7 +68,7 @@
             <div class="row g-0 text-center" id="sogae">
                 <div class="col-12" id="dream">
                   꿈을 향해 달려간다 <br>
-                  Running Toward My Dream
+                  Running Toward <br class="d-block d-md-none"> My Dream
                 </div>
                 <div class="col-12" id="mn">
                   <h1 class="mn">조용빈</h1>
@@ -102,9 +101,9 @@
                     <div style="margin-bottom: 10px;">SKILLS</div>
                     [ C++ · HTML  · BootStrap · Figma ] <br>
                     <br>
-                    주어진 상황에 최대한으로 열심히 참여합니다.<br>
+                    주어진 상황에 최대한으로<br class="d-block d-sm-none"> 열심히 참여합니다.<br>
                     <br>
-                    <img src="img/c.png" alt="c언어 이미지" width="60" height="70"> &nbsp; <img src="img/html2.png" alt="html이미지" width="70" height="70"> &nbsp; <img src="img/bootstrap.png" alt="부트스트랩 이미지" width="70" height="70"> &nbsp; <img src="img/figma.png" alt="피그마 이미지" width="70" height="70">
+                    <img src="img/c.png" alt="c언어 이미지" width="60" height="70" class="text-center"> <img src="img/html2.png" alt="html이미지" width="70" height="70" class="text-center"> <br class="d-block d-sm-none"> <img src="img/bootstrap.png" alt="부트스트랩 이미지" width="70" height="70" class="text-center"> <img src="img/figma.png" alt="피그마 이미지" width="70" height="70" class="text-center">
                     <div style="height: 100px;" id="gagi"></div>
                 </div>
             </div>
@@ -119,15 +118,15 @@
                     <div class="col-12 col-lg-6 text-center align-items-center">
                     <img src="img/mainhtml.png" alt="html 아이콘" id="hl" width="400">
                     </div>
-                    <div class="htmlwriting col-12 col-lg-6">
-                        <h1 class="art">HTML5 웹 개발의 시작<br></h1><br>
-                        <nav> 개인 웹사이트 제작 및 포트폴리오 제작<br></nav>
-                            <ul>
+                    <div class="col-12 col-lg-6 text-center">
+                        <h1 class="art">HTML5<br class="d-block d-sm-none"> 웹 개발의 시작<br></h1><br>
+                        <nav> 개인 웹사이트 제작<br class="d-block d-sm-none"> 및 포트폴리오 제작<br></nav>
+                            <ul class="text-center px-0">
                             <li>
-                            <p><i class="fa-brands fa-css3-alt"></i> CSS</p> <p><i class="fa-brands fa-square-js"></i> Javascript</p>
+                            <p class="mx-2"><i class="fa-brands fa-css3-alt"></i> CSS</p> <p class="mx-2"><i class="fa-brands fa-square-js"></i> Javascript</p>
                             </li>
                             <li>
-                            <p><i class="fa-brands fa-html5"></i> HTML5</p> <p><i class="fa-brands fa-bootstrap"></i> Bootstrap</p>
+                            <p class="mx-2"><i class="fa-brands fa-html5"></i> HTML5</p> <p class="mx-2"><i class="fa-brands fa-bootstrap"></i> Bootstrap</p>
                             </li>
                             </ul>
                     </div>
@@ -137,31 +136,31 @@
         </div>
     <div class="container-fluid px-0 bg-dark-subtle" id="project">
         <section class="container-sm px-0">
-                <div class="allcard text-center align-items-center justify-content-evenly">
-                    <div class="card text-center align-items-center d-block" id="programing">
+                <div class="allcard text-center align-items-center justify-content-evenly pt-3 pb-3">
+                    <div class="card d-block  mx-auto" id="programing">
                         <img src="./img/mainhtml.png" alt="..." width="120" height="100">  
                         <div class="card-body">
                           <h5 class="card-title">포트폴리오<br> [ 프로그래밍 ]</h5>
                           <p class="card-text">학교에서 HTML,CSS,JS를<br> 사용해서 저의 대해 소개하는<br> 포트폴리오 사이트 입니다.</p>
-                          <a href="https://choyongbin0808.github.io/swjb/" class="btn btn-primary" target="_blank">Go site</a>
-                          <a href="https://github.com/choyongbin0808/swjb" class="btn btn-primary" target="_blank">code download</a>
+                          <a href="https://choyongbin0808.github.io/swjb/" class="btn" target="_blank">Go site</a>
+                          <a href="https://github.com/choyongbin0808/swjb" class="btn" target="_blank">Code Download</a>
                         </div>
                     </div>
-                    <div class="card text-center align-items-center d-block" id="promissing">
+                    <div class="card d-block  mx-auto" id="promissing">
                         <img src="./img/bootstrap.png" alt="..." width="100" height="100">
                         <div class="card-body">
                           <h5 class="card-title">포트폴리오<br> [ 미래유망 ]</h5>
                           <p class="card-text">HTML,CSS,JS,Bootstrap을<br> 사용해서 저의 대해 소개하는 <br>포트폴리오 사이트 입니다.</p>
-                          <a href="https://choyongbin0808.github.io/promissing/" class="btn btn-primary"  target="_blank">Go site</a>
-                          <a href="https://github.com/choyongbin0808/promissing" class="btn btn-primary" target="_blank">Go download</a>
+                          <a href="https://choyongbin0808.github.io/promissing/" class="btn"  target="_blank">Go site</a>
+                          <a href="https://github.com/choyongbin0808/promissing" class="btn" target="_blank">Code Download</a>
                         </div>
                     </div>
-                    <div class="card text-center align-items-center d-block" id="meat">
+                    <div class="card d-block mx-auto" id="meat">
                         <img src="./img/c언어3d.png" alt="..." width="100" height="100">
                         <div class="card-body">
                           <h5 class="card-title">프로젝트<br> [ c언어 ]</h5>
                           <p class="card-text">c언어를 사용해서 <br>5가지 고기의 5대 영양성분을<br> 알려주는 프로젝트 입니다.</p>
-                          <a href="https://onlinegdb.com/lD_NhudlX" class="btn btn-primary" target="_blank">code download</a>
+                          <a href="https://onlinegdb.com/lD_NhudlX" class="btn" target="_blank">Code Download</a>
                         </div>
                     </div>
                     </div>
@@ -175,9 +174,9 @@
                 <div class="col-12 col-lg-6 text-center">
                 <img src="img/figma3d.png" alt="피그마 이미지" id="fm" width="300"> 
                 </div>
-                <div class="prototype col-12 col-lg-6">
-                    <h1 class="figmafoem">Figma를 사용하여 <br> 웹 프로토타입 제작</h1><br>
-                    <nav>웹 사이트 본격 제작 전 프로토타입 시연<br>
+                <div class="prototype col-12 col-lg-6 text-center">
+                    <h1 class="figmafoem">Figma를<br class="d-block d-mb-none"> 사용하여 <br class="d-block d-sm-none"> 웹 프로토타입<br class="d-block d-sm-none"> 제작</h1><br>
+                    <nav>웹 사이트 본격 제작 전<br class="d-block d-sm-none"> 프로토타입 시연<br>
                     단계별 디자인 과정 설명</nav>
                 </div>
             </div>
@@ -185,9 +184,9 @@
         <!-- //Figma 영역 -->
     </div>
 
-    <!-- //이수과목영역 -->
+    <!-- //이수과목영역
         <div class="container-fluid px-0 bg-body-secondary">
-            <!-- 위대한 것은 시 영역 -->
+            위대한 것은 시 영역
             <section class="container-sm px-0">
                     <div class="row g-0">
                         <div class="col-12 col-lg-6" id="great">
@@ -208,7 +207,8 @@
                     </div>
             </section>
             </div>
-            <!-- // 위대한 것은 시 영역 -->
+            // 위대한 것은 시 영역
+             -->
 
         <div class="container-fluid px-0" id="visual">
             <!-- 위대한 것은 시 - 비주얼 영역 -->

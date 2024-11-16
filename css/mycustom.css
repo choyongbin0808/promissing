@@ -40,11 +40,8 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
-    header{
-        height: 100px;
-    }
-    #holo1 h1{
-        margin-top: 25px;
+    #holo h1{
+        margin-top: 10px;
     }
     #sogae #dream{
         font-size: 36px;
@@ -78,15 +75,11 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
-    
-    header{
-        height: 100px;
-    }
-    #holo1 h1{
-        margin-top: 20px;
+    #holo h1{
+        margin-top: 10px;
     }
     #holo span{
-        font-size: 15px;
+        font-size: 13px;
     }
     #sogae #dream{
         font-size: 36px;
@@ -94,14 +87,8 @@ header nav a.headerActive{
     #sogae .mn{
         font-size: 50px;
     }
-    #holo1 span{
-        font-size: 15px;
-    }
-    #sbmainpc #chardetail{
-        padding-left: 30px;
-    }
     #holo1 h1 span{
-        font-size: 16px;
+        font-size: 15px;
     }
     #HTML5 img{
         width: 300px;
@@ -110,13 +97,11 @@ header nav a.headerActive{
         font-size: 16px;
     }
     .allcard #programing{
-        margin-top: 30px;
         min-height: 380px;
     }
     #project .card{
         max-width: 250px;
         max-height: 340px;
-        margin-left: 60px;
     }
 }
 
@@ -132,23 +117,23 @@ header nav a.headerActive{
     /* create Date : 2024-09-19
     /* update Date : 2024-11-09
     /* **************************************** */
-    header{
-        height: 100px;
+    #holo h1{
+        margin-top: 10px;
     }
-    #holo1 h1{
-        margin-top: 0;
+    #holo span{
+        font-size: 18px;
     }
-    h1 span{
-        font-size: 20px;
+    #sogae #dream{
+        font-size: 36px;
+    }
+    #sogae .mn{
+        font-size: 50px;
     }
     #HTML5 img{
         width: 300px;
     }
     #HTML5 li p{
         font-size: 20px;
-    }
-    .card{
-        margin-left: 55px;
     }
 }
 
@@ -171,11 +156,11 @@ header nav a.headerActive{
         min-width:320px;
         padding:0 20px;
     }  
-    header{
-        height: 100px;
+    #holo h1{
+        margin-top: 10px;
     }
-    #holo1 h1{
-        margin-top: 25px;
+    #holo1 span{
+        font-size: 20px;
     }
     #HTML5 li p{
         height: 80px;
@@ -184,7 +169,6 @@ header nav a.headerActive{
     .card{
         min-width: 180px;
         min-height: 440px;
-        margin-left: 65px;
     }
     .allcard{
         display: block;
@@ -203,8 +187,14 @@ header nav a.headerActive{
      /* create Date : 2024-09-19
      /* update Date : 2024-11-09
      /* **************************************** */
-    .box #holo1{
-        margin-top: 11px;
+     #holo h1{
+        margin-top: 10px;
+    }
+    #holo #holo2 nav{
+        margin-top: 5px;
+    }
+    #holo1 span{
+        font-size: 23px;
     }
     #HTML5 li p{
          font-size: 25px;
@@ -212,8 +202,13 @@ header nav a.headerActive{
     .card{
         min-width: 240px;
         min-height: 390px;
-        margin-left: 100px;
     }
+}
+
+@media screen and (max-width:991px){
+    header{
+            height: 120px;
+    } 
 }
    
 /* ********************************************************* */
@@ -284,25 +279,16 @@ header{
 }
 #holo{
     height: 70px;
-}
-#holo #holo2{
-    margin-top: 15px;
-    font-weight: 800;
+    width: 100%;
 }
 #holo1 h1 img{
     border-radius: 70%;
 }
 h1 span{
     font-size: 25px;
-    font-weight: bold;
-    line-height: 30px;
-
     color: #000;
-
     transition: color 0.35s;
-
 }
-
 header nav a{
     color: #000;
     transition: color 0.35s;
@@ -343,6 +329,9 @@ header nav a{
     font-size: 30px;
     font-weight: 800;
 }
+#chardetail img{
+    padding-bottom: 10px;
+}
 /* //mainvisualpage */
 
 /* HTMLpage */
@@ -355,12 +344,10 @@ header nav a{
     font-size: 40px;
     font-weight: bolder;
     margin-top: 80px;
-    padding-left: 30px;
 }
 #HTML5 nav{
     font-size: 25px;
     margin-bottom: 20px;
-    padding-left: 30px;
 }
 #HTML5 .skillmenu{
     display: flex;
@@ -373,11 +360,8 @@ header nav a{
     background-color: #fff;
     border: 2px solid #000;
     box-shadow: 5px 5px 2px grey;
-
-    padding: 20px;
+    padding: 24px;
     border-radius: 15px;
-    margin-bottom: 20px;
-    margin-right: 30px;
 }
 li{
     display: flex;
@@ -397,6 +381,15 @@ li{
 .card a{
     margin-bottom: 10px;
 }
+.btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #000;
+}
+.btn:hover{
+    background-color: black;
+    color: #fff;
+}
 /* //project page */
 
 /* figma page */
@@ -408,23 +401,21 @@ li{
     font-size: 40px;
     margin-top: 70px;
     font-weight: bolder;
-    padding-left: 30px
 }
 #figma nav{
     font-size: 25px;
     margin-bottom: 80px;
-    padding-left: 30px;
 }
 /* //figma page */
 
 /* 위대한 것은 시 영역 */
-.great{
+/* .great{
     margin-top: 70px;
     display: block;
     padding-left: 30px;
     font-size: 20px;
     margin-bottom: 30px;
-}
+} */
 /* //위대한 것은 시 영역 */
 
 /* poem visual page*/
