@@ -105,7 +105,7 @@ header nav a.headerActive{
         min-height: 380px;
     }
     #project .card{
-        max-width: 250px;
+        max-width: 300px;
         max-height: 340px;
     }
 }
@@ -172,8 +172,8 @@ header nav a.headerActive{
         font-size: 20px;
     }
     .card{
-        min-width: 180px;
-        min-height: 440px;
+        max-width: 300px;
+        max-height: 340px;
     }
     .allcard{
         display: block;
@@ -205,8 +205,8 @@ header nav a.headerActive{
          font-size: 25px;
     }
     .card{
-        min-width: 240px;
-        min-height: 390px;
+        max-width: 300px;
+        max-height: 340px;
     }
 }
 
